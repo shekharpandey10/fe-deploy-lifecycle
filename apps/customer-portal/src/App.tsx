@@ -8,6 +8,7 @@ function App() {
     <>
       <h1>Dev and Deploayment lifecycle</h1>
       <Button onClick={() => alert(formatCurrency(1234))} />
+      <h1>new feature</h1>
     </>
   )
 }
