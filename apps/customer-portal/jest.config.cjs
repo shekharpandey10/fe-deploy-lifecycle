@@ -1,6 +1,7 @@
 module.exports = {
-    ...require("* @repo/jest-config/react"),
+    ...require("@repo/jest-config/react"),
     testMatch: [
-        "<roorDir>/src/test/**/*.test.(ts|tsx)"
+        "<rootDir>/src/test/**/*.test.ts",
+        "<rootDir>/src/test/**/*.test.tsx"
     ]
 }

@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "lerna run dev --parallel",
     "build": "lerna run build",
-    "test": "lerna run test",
+    "test": "jest",
     "lint": "lerna run lint"
   },
   "license": "ISC",
