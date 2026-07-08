@@ -1,3 +1,1 @@
-import { reactConfig } from '@repo/eslint-config/react'
-
-export default reactConfig
+export { reactConfig as default } from '@repo/eslint-config/react'
