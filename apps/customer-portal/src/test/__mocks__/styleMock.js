@@ -1,4 +1,4 @@
 /* global module */
 module.exports = new Proxy({}, {
-    get: (target, prop) = prop
+    get: (_target, prop) => String(prop)
 })
