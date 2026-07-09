@@ -1,9 +1,9 @@
 {
     "name": "@repo/eslint-config",
-    "private":true,
+    "private": true,
     "version": "1.0.0",
     "type": "module",
-    "exports":{
-        "*./react":"./react.js"
+    "exports": {
+        "./react": "./react.js"
     }
 }
