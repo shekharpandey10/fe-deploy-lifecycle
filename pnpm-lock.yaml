@@ -32,6 +32,9 @@ importers:
       eslint-plugin-react-refresh:
         specifier: ^0.5.3
         version: 0.5.3(eslint@10.6.0)
+      globals:
+        specifier: ^17.7.0
+        version: 17.7.0
       jest:
         specifier: ^30.4.2
         version: 30.4.2(@types/node@24.13.2)
